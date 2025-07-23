@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Image Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI Image Generator</h1>
+    <input type="text" id="prompt" placeholder="اكتب وصف للصورة...">
+    <button onclick="generateImage()">توليد الصورة</button>
+    <div id="imageContainer"></div>
+    <div class="actions">
+      <button onclick="downloadImage()">تحميل</button>
+      <button onclick="shareImage()">مشاركة</button>
+    </div>
+    <footer>تم الإنشاء بواسطة ENG.AHMED</footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
